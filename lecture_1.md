@@ -97,7 +97,7 @@ No problem class, 2 lectures.
    not been signed by the system (no one can create valid signatures on
    messages I have not signed).
 
-Scheme is called EUF (exestential unforgability) CMA (chosen message attack).
+Scheme is called EUF (existentially unforgeable) CMA (chosen message attack).
 Schemes are different from security models (AES is different from IND-CPA).
 
 EUF is the goal of the adversary, and CMA is the attack model. PASS is a weaker
@@ -168,6 +168,7 @@ repeating the attack will not work.
 ###Exercises for next week
 
 * Prove that if f is negligible then
-    1. 2f is neglible
+    1. 2f is negligible
     2. g(n)f(n) is negligible
 * f and g are negligible functions then f+g is negligible (challenge)
+
